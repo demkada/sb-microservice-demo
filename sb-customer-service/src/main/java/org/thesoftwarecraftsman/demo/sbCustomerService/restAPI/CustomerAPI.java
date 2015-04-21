@@ -23,6 +23,7 @@ public class CustomerAPI {
 			customer.setId(i);
 			customer.setName("Customer " + i);
 			customer.setEmail("Customer" + i +"@gmail.com");
+			customer.setPhone(i +""+ i +""+ i +""+ i +""+ i +""+ i);
 			customers.add(customer);
 		}
 	}
