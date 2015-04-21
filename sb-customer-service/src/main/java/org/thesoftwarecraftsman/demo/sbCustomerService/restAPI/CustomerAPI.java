@@ -30,7 +30,6 @@ public class CustomerAPI {
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public List<Customer> getCustomers() {
-		System.out.println(customers.toString());
 		return customers;
 	}
 	
